@@ -1,0 +1,622 @@
+/*********************************Common write style*********************************/
+
+*  {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Dancing Script', cursive;
+}
+/*********************************Common header*********************************/
+
+body.home, header.headd {
+	background-image: url(images/home/bg-texture\ \(1\).png);
+	background-repeat: repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: sans-arial, sans-s
+}
+.headd header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	;
+	background-color: white;
+	/* Set a white background for the header */
+	;
+}
+/*********************************Common nav*********************************/
+
+.menu {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 100px;
+	line-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 13px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.logo img {
+	width: 30%;
+	height: auto;
+	font-size: 10px;
+	color: white;
+	border-radius: 20px;
+	margin-left: 15px;
+	color: inherit;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	transition: 0.5s all ease;
+}
+ul li {
+	float: left;
+	padding: 0px 10px;
+	list-style: none;
+}
+.menu ul {
+	list-style: none;
+	display: flex;
+	margin: 0px;
+}
+.menu li {
+	margin-right: 20px;
+}
+.menu a {
+	text-decoration: underline;
+	color: #333;
+	font-weight: bold;
+}
+.menu a:hover {
+	color: rgb(154, 51, 13);
+
+}
+
+/*************************Footer**************************/
+
+footer {
+	background-color: #f8f8f8;
+	padding: 20px;
+	text-align: center;
+	border-radius: 15px;
+	margin: 1%;
+	margin-top: 5%;
+}
+footer p {
+	font-weight: bold;
+	font-style: italic;
+	margin: 10px;
+	padding: 10px;
+}
+
+/*********************************Mohamed's page*********************************************************************/
+/*********************************head menu of Mohamed's page*********************************/
+
+.headM{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/mohamed/Fond.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.titreM {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.titreM h1 {
+	column-rule-color: white;
+	font-size: 70px;
+}
+.menuM {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	list-style: none;
+	float: right;
+	display: flex;
+	margin-top: 20px;
+}
+.menuM a {
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	margin: 10px;
+	font-weight: 500;
+	transition: 0.6s ease;
+	background-color: transparent;
+}
+.menuM :hover {
+	background-color: white;
+	color: black;
+}
+/*********************************Content of Mohamed's Menu*********************************/
+
+body.bodyM{
+	margin: 0 auto;
+	line-height: 20px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/mohamed/Fond.png);
+	height: 800vh;
+	background-size: cover;
+	background-position: center;
+}
+div.titleM{
+	display: flex;
+	justify-content: center;
+	border: 2px solid white;
+	padding: 25px;
+	font-size: 20px;
+	color: white;
+}
+div.item-info td {
+	padding: 100px;
+}
+div.entrés,div.plats,div.desserts,div.boissons {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	font-size: 30px;
+	color: white;
+}
+img.imageMohamed {
+	display: flex;
+	justify-items: flex-start;
+	width: 200px;
+	height: 170px;
+	padding: 20px;
+}
+div.item {
+	background-color: whitesmoke;
+	margin: 100px;
+	padding: 10px;
+	display: flex;
+	cursor: pointer;
+	transition: 0.3s all;
+	height: 200px;
+}
+div.item:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+div.item:hover {
+	transition: 0.3s all;
+	box-shadow: -2px 2px 2px 1px rgb(0, 0, 0);
+}
+div.item-info td {
+	position: relative;
+	top: -100px;
+	left: -80px;
+}
+div.item-info p {
+	padding: 15px;
+	font-size: 20px;
+}
+div.item-info hr {
+	margin: 10px 0px 10px 0px;
+	opacity: 1;
+	height: 0.5px;
+	background-color: black;
+}
+/***********************Form of Mohamed's page***********************/
+
+img.img-milano {
+	width: 100%;
+	border-radius: 25px;
+}
+section.accueil {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 25px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.question {
+	position: relative;
+	text-align: center;
+	padding: 20px;
+	color: #ffffff;
+	/* Text color for better visibility on the image */
+	margin-top: 90px;
+}
+.question::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/mohamed/cvvv.jpg') center/cover;
+	border-radius: 20px;
+	/* Ensure rounded corners match the main container */
+}
+.question h1 {
+	font-size: 28px;
+	color: #fff;
+	/* Text color for better visibility on the image */
+}
+.question form {
+	max-width: 400px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	/* Light background color for the form */
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: relative;
+	/* Ensure z-index works */
+	z-index: 1;
+	/* Place the form above the overlay */
+}
+.question label {
+	display: block;
+	margin-bottom: 8px;
+	color: #333;
+}
+.question input, .question textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.question button {
+	background-color: black;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.question button:hover {
+	background-color: #45a049;
+}
+.en-tete-form {
+	background-color: rgb(255, 255, 255, 0.5);
+	border: 2px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#avis-titre {
+	margin-bottom: 10px;
+	font-size: 1.8em;
+	font-style: italic;
+}
+#titre-form {
+	font-size: 30px;
+	color: #fff;
+	background-color: rgb(0, 0, 0, 0.9);
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: -85px;
+}
+
+/**************************************************CSS YASIN************************************************/
+
+
+/*************************section***********************/
+.poste-disponible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/*************************image entete**********************/
+
+#entete-job {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Set the desired height for the header */
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+#entete-job img.equipe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+#entete-job h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+	rgb(0, 0, 0)
+}
+
+
+
+#entete-job {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Set the desired height for the header */
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+#entete-job img.equipe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+/*************************aside************************/
+
+.aside-poste {
+    position: absolute;
+    bottom: 0; /* Align to the bottom */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.aside-poste ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aside-poste li {
+    margin-bottom: 10px;
+}
+
+.aside-poste li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    text-decoration: underline;
+}
+
+
+
+
+/***************************section recrutement disponible****************************/
+
+/*************************recrutement***********************/
+
+
+.job-dispo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.recrutement {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 20px;
+    width: calc(70% - 40px); /* Adjust the width to leave space for the margin and shadow */
+    text-align: left;
+    overflow: hidden; /* Clear floats */
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/yasin/office-865091_1280.jpg);
+    background-size: cover; /* Ensure the background image covers the entire element */
+}
+
+#titre-job {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+#sous-titres{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.jobs {
+    background-color: rgb(114, 142, 197);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 20px auto; /* Center the container horizontally */
+    width: calc(70% - 40px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+}
+.job-table {
+    width: 100%; /* Set table width to 100% */
+    border-collapse: collapse; /* Collapse the borders between cells */
+    margin-top: 20px; /* Add some space at the top of the table */
+    background-color: rgb(171, 182, 224)
+}
+
+.job-table td {
+    border: 1px solid #ff0000; /* Add borders to table cells */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.job-table h3 {
+    margin-bottom: 10px;
+}
+
+.job-table a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.job-table td {
+    border: 1px solid #000000;
+    border-radius: 50px ;
+    padding: 20px ;
+    margin-bottom: 20px;
+    background-color: rgb(171, 182, 224)
+}
+
+.job-table h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.job-table h1 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.job-table p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.job-table .responsabilite {
+    list-style-type: none;
+    padding: 0;
+}
+
+.job-table .tache {
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.job-table a:hover {
+    color: rgb(255, 166, 0);
+}
+
+/*************************section formulaire cv spontanée***********************/
+
+
+/* Add this to your style.css */
+
+.spontanee {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff; /* Text color for better visibility on the image */
+    margin-top: 90px;
+    
+}
+
+.spontanee::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/yasin/cvvv.jpg') center/cover;
+    border-radius: 20px; /* Ensure rounded corners match the main container */
+}
+
+.spontanee h1 {
+    font-size: 28px;
+    color: #fff; /* Text color for better visibility on the image */
+}
+
+.spontanee form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background color for the form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure z-index works */
+    z-index: 1; /* Place the form above the overlay */
+}
+
+.spontanee label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.spontanee input,
+.spontanee textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.spontanee button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.spontanee button:hover {
+    background-color: #45a049;
+}
+
+
+.en-tete-form {
+    background-color: rgb(255, 255, 255,0.5);
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cv-titre {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    font-style: italic;
+}
+
+#cv-sous-titre {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#titre-form {
+    font-size: 30px;
+    color: #fff;
+    background-color: rgb(0, 0, 0,0.9);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: -85px;
+}
